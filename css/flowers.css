@@ -1,3 +1,15 @@
+.down{
+  margin-bottom: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+margin-bottom: -10px;
+
+}
 * {
   box-sizing: border-box;
 }
