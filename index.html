@@ -13,6 +13,46 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
+<style type="text/css">
+    #instafeed img {
+padding: 3px;
+opacity: 0.8;
+filter: alpha (opacity=80)
+    }
+
+
+    #instafeed img:hover {
+
+opacity: 1;
+filter: alpha (opacity=100)
+    }
+.margin {
+ 
+    margin-top: 45px;
+}
+
+.text {
+
+  font-family: serif;
+  font-size: 14pt;
+}
+</style>
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
+
+    <script type="text/javascript">
+
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '4038643434',
+    // links: 'false',
+        accessToken: '4038643434.5833ac0.d23272f87e4a4c328ccb2db68594aa74',
+        template: '<a href="{{link}}" target="_blank" title="Посмотреть в инстаграме"><img src="{{image}}" /></a>',
+        
+});
+    feed.run();
+      
+    </script>
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,12 +93,13 @@
   <div class="row down">
             
             <div class="col-md-6 col-lg-6">
-            <img src="img/1.jpg">
+             
+
+          
             
             </div>
             <div class="col-md-4 col-lg-4">
-            <h1>Букеты из свежих цветов на свадьбы и праздники</h1>
-              <p>Делаем букеты которые долго стоят, потому что мы заботимся о цветах. Свежие цветы мы покупаем у поставщиков два раза в неделю. Перевозим и храним цветы в пластиковых, а не железных баках, чтобы ржавчина не вредила цветам. Каждый день подрезаем цветы, пользуемся только острым инструментом, чтобы срез не мешал цветку пить. Каждый день меняем и обеззараживаем воду, чтобы бактерии не портили цветы. Большие магазины не могут позволить себе тратить столько времени и сил на уход за цветами, поэтому наши букет стоят дольше.</p>
+            <h1>Свежие цветы для друзей и любимых</h1>
               
             </div>
             
@@ -68,81 +109,56 @@
   <div class="row down">
               
               <div class="col-md-7 col-lg-7">
-                <img src="img/girl.jpg">
-            
-                <h3>Цветы для дней рождений, годовщин и популярных праздников</h3>
-                <p>Мы делаем букеты, которые не повторяются. Мы можем составить букет с похожими цветами, упаковкой и лентами, но он не будет в точность повторять ваш пример. Так получается, потому что цветы живые и не похожи друг на друга — у них разные размеры и оттенки, их сезон может закончиться и их перестанут привозить к моменту вашего заказа. Цветы доставляют с аукционов и цена букета из одних и тех же цветов может различаться в два раза. На рынке постоянно появляются новые сорта, цвета и оттенки, которых не было раньше, что позволяет следовать за модой и делает прошлые букеты неактуальными.
-</p>
+             <div id="instafeed"></div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+                <h3>Каждый букет уникален</h3>
+                <p>Мы не повторяем свои работы</p>
 
                 
               </div>
         
   
-            <div class="col-md-3 col-lg-3">
-              <img src="img/35.jpg">
-              <p class="small">35 рублей</p>
-           
-              <img src="img/50.jpg">
-              <p class="small">50 рублей</p>
-            
-              <img src="img/100.jpg">
-              <p class="small">100 рублей</p>
-           
-              <img src="img/150.jpg">
-              <p class="small">150 рублей</p>
-            </div>
   </div>
 
-<div class="row">
-            <div class="col-md-8 col-lg-8">
-              <h3>Подарите цветочный ящик, если знаете что все придут на праздник с букетами</h3>
-              
-            </div>
-           </div> 
-
-<div class="row">
-            <div class="col-md-6 col-lg-6">
+<div class="row down">
+            <div class="col-md-7 col-lg-7">
               <img src="img/4-2.jpg">
-             <p class="small">Ящики мы покупаем у ремесленников и раскрашиваем их вручную, поэтому каждый подарок будет уникальным</p>
+             
             </div>
-
-            <div class="col-md-6 col-lg-6">
-              <img src="img/4-1.jpg">
-              <p class="small">Кроме цветов, можем дополнить композиции зефиром ручной работы</p>
+            <div class="col-md-4 col-lg-4">
+              <h3>Цветы не завянут через пару дней</h3>
+            <p>Закупаем цветы 2 раза в неделю и ухаживаем за ними</p>
             </div>
+</div> 
 
-  </div>
-
-          
- <div class="row">
-            <h3>Сделаем свадебный букет, который подчеркнет характер невесты и проживет целый день</h3>
-
-            <div class="col-md-3 col-lg-3">
-             <img src="img/3-3.jpg">
-              <p>Мы понимаем, сколько волнений переживает невеста при подготовке к свадьбе, и хотим, чтобы вопросы с букетом ее не беспокоили. Поэтому мы видим невесту всего два раза — при обсуждении букета и в момент его вручения.</p>
+<div class="row down">
+            <div class="col-md-7 col-lg-7">
+             <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BZTM9TcnUa1/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Публикация от Флорист Букеты Минск (@bunch.by)</a> <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-09-21T10:39:54+00:00">Сен 21 2017 в 3:39 PDT</time></p></div></blockquote>
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+             
             </div>
-              
-            <div class="col-md-3 col-lg-3">
-              <img src="img/3-1.jpg">
-              <p>Чтобы букет раскрыл образ невесты, мы подробно обсуждаем ее наряд и костюм жениха, узнаем подробности мероприятия и фиксируем ее пожелания. </p>
-            </div>
-
-        
             
-            <div class="col-md-3 col-lg-3">
-              <img src="img/3-2.jpg">
-              <p>Свадебный букет отличается от подарочного не только формой и составом, но требованиями к его стойкости. </p>
-            </div>
-
-             <div class="col-md-3 col-lg-3">
-               <img src="img/wed.jpg">
-              <p>Во время свадебного переполоха, никто не следит за тем, чтобы букет стоял в воде и не ограничивает время фотосессии, чтобы цветы могли пополнить запас влаги. Поэтому мы применяем специальные аксессуары и химию, которая позволяет цветам пережить свадебный день, не потеряв свою красоту.</p>
-            </div>
-
+            <div class="col-md-4 col-lg-4">
+              <h3>Букет — часть образа</h3>
+           <p>Расскажите, каким будет платье и мы подберем ленты и кисточки</p>
+         </div>
             
-           </div> 
+</div> 
 
 
+
+ 
+<div class="row down">
+            <div class="col-md-7 col-lg-7">
+              <img src="img/4-2.jpg">
+             
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <h3>Букет не сломается в дороге</h3>
+            <p>Упаковка не только украшает букет, но защищает цветы от поломки</p>
+            </div>
+</div> 
          
 
 
@@ -150,6 +166,7 @@
         <div class="row">
       
          <div class="col-md-8 col-lg-8">
+                  <h3>Как заказать букет, если ты ничего не понимаешь в цветах</h3>
               <h3>Инструкция — как самостоятельно ухаживать за букетом</h3>
             <p>
              Чтобы букет радовал вас не только когда его подарили, но и потом мы прикладываем к нему пакетик кризала. Это средство помогает цветам жить дольше, но кроме подкормки, цветам нужен уход:
