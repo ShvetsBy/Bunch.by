@@ -1,3 +1,32 @@
+body {
+
+  /*
+  * Настраиваем основной текст:
+  * Бюросериф, кегль 20 пикселей,
+  * интерлиньяж 27 пикселей.
+  * Если Бюросерифа нет — Джорджия.
+  */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  line-height: 140%;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: #cc0000;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+
 .down{
   margin-bottom: 50px;
 }
@@ -13,15 +42,7 @@ margin-bottom: -10px;
 * {
   box-sizing: border-box;
 }
-body {
-/*  font-family: "Indie Flower";
-  line-height: 1.618em;
-  background-color: #e4d4bb;
-  background-image: repeating-radial-gradient(circle, 
-    #E4D4BB, #E7DAC6 50%, #E7DAC6 100%
-  );
-  background-size: 10px 10px;*/
-}
+
 
 .layout {
 
