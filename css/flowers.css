@@ -1,92 +1,115 @@
+.cover-img {
+	padding: 0;
+	margin: 0;
+}
+
 body {
-
-  /*
-  * Настраиваем основной текст:
-  * Бюросериф, кегль 20 пикселей,
-  * интерлиньяж 27 пикселей.
-  * Если Бюросерифа нет — Джорджия.
-  */
-  font-family: 'Open Sans', sans-serif;
-  font-size: 100%;
-  line-height: 140%;
-
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', serif;
-}
-
-.top {
-  margin-top: -200px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 160%;
+	line-height: 180%;
 }
 
 
-.logo {
-    margin: 5px;
+	@font-face{
+font-family: Intro;
+src: url(/fonts/Intro.eot),
+url(/fonts/Intro.otf),
+url(/fonts/Intro.ttf),
+url(/fonts/Intro.woff);
 }
 
-.circle-text {
-    width: 50%;
-}
-.circle-text:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height:0;
-    padding-bottom: 100%;
-    background: #c1dde1; 
-    -moz-border-radius: 50%; 
-    -webkit-border-radius: 50%; 
-    border-radius: 50%;
-}
-.circle-text div {
-    float:left;
-    width:100%;
-    padding-top:50%;
-    line-height:1em;
-    margin-top:-0.5em;
-    text-align:center;
-    color:black;
-}
-
-h1 {
-  position: absolute;
-  top: 300px;
-  color: white !important;
-  font-size: 485% !important;
-  left: 800px;
+h1, h3 {
+font-family: 'Intro', sans-serif;
+line-height: 130%;
 
 }
 
-/*h1 {
-  position: absolute;
-  top: 1500px;
+.cover {
+background-color: black;
+margin-top: -220px;
+padding: 8px 16px 24px 8px;
 
-  left: 50px;
-
-}*/
-
-/*h3 {
-  position  : relative;
-  top   : -100px;
-  left    : 100px;*/
- 
 }
 
-h1 span {
-  color     : white;
-  background    : rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
-  background    : rgba(0, 0, 0, 0.7);
-  padding     : 10px;
+.title {
+margin-top: 300px;
 }
 
-/*h3 span {
-  color: white; 
-  background: rgb(0, 0, 0);  на случай, если следующая строка не сработает 
-  background : rgba(0, 0, 0, 0.7);
-  padding: 10px;*/
+.text {
+width: 300px;
 }
 
-.down{
-  margin-bottom: 70px !important;
+.photo {
+	margin-left: 600px !important;
+	margin-top: -400px !important;
 }
+
+.description {
+margin-top: -200px !important;
+width: 300px;
+
+}
+
+
+.title-2 {
+margin-top: 300px;
+margin-left: 700px !important;
+}
+
+.text-2 {
+width: 300px;
+margin-left: 700px !important;
+}
+
+.photo-2 {
+	margin-top: -400px !important;
+	margin-left: -150px !important;
+}
+
+.description-2 {
+margin-top: -200px !important;
+margin-left: 700px !important;
+width: 300px;
+}
+
+.manual {
+	margin-top: 200px;
+	margin-bottom: -200px; 
+	
+}
+
+.manual-img {
+	margin-bottom: 10px; 
+	
+}
+
+.order {
+
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+
+.instagram {
+
+	margin-bottom: 100px;
+}
+
+.footer {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.small {
+	font-size: 80% !important;
+	line-height: 140% !important;
+}
+
+ul.order-list {
+
+font-size: 80%;
+line-height: 160%;
+list-style-type: none;
+margin-left: -20px;
+}
+
