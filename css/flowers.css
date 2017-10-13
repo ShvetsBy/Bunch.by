@@ -10,14 +10,12 @@ body {
 	line-height: 180%;
 }
 
-
-	@font-face{
-font-family: Intro;
-src: url(/fonts/Intro.eot),
-url(/fonts/Intro.svg),
-url(/fonts/Intro.otf),
-url(/fonts/Intro.ttf),
-url(/fonts/Intro.woff);
+@font-face {
+	font-family: 'Intro';
+	src: url('fonts/Intro.eot');
+	src: local('☺'), url('fonts/Intro.woff') format('woff'), url('fonts/Intro.ttf') format('truetype'), url('fonts/Intro.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 h1, h3 {
