@@ -14,6 +14,7 @@ body {
 	@font-face{
 font-family: Intro;
 src: url(/fonts/Intro.eot),
+url(/fonts/Intro.svg),
 url(/fonts/Intro.otf),
 url(/fonts/Intro.ttf),
 url(/fonts/Intro.woff);
