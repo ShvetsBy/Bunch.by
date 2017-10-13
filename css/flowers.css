@@ -1,3 +1,13 @@
+
+@font-face {
+	font-family: 'Intro';
+	src: url('../fonts/Intro.eot');
+	src: local('☺'), url('../fonts/Intro.woff') format('woff'), 
+	url('../fonts/Intro.ttf') format('truetype'), 
+	url('../fonts/Intro.svg') format('svg');
+
+}
+
 .cover-img {
 	padding: 0;
 	margin: 0;
@@ -10,13 +20,8 @@ body {
 	line-height: 180%;
 }
 
-@font-face {
-	font-family: 'Intro';
-	src: url('../fonts/Intro.eot');
-	src: local('☺'), url('../fonts/Intro.woff') format('woff'), 
-	url('../fonts/Intro.ttf') format('truetype'), 
-	url('../fonts/Intro.svg') format('svg');
-	
+a {
+	text-decoration: underline;
 }
 
 h1, h3 {
@@ -28,7 +33,7 @@ line-height: 130%;
 .cover {
 background-color: black;
 margin-top: -220px;
-padding: 8px 16px 24px 8px;
+padding: 25px 35px 40px 20px;
 
 }
 
@@ -41,7 +46,7 @@ width: 300px;
 }
 
 .photo {
-	margin-left: 600px !important;
+	margin-left: 500px !important;
 	margin-top: -400px !important;
 }
 
@@ -54,22 +59,22 @@ width: 300px;
 
 .title-2 {
 margin-top: 300px;
-margin-left: 700px !important;
+margin-left: 650px !important;
 }
 
 .text-2 {
 width: 300px;
-margin-left: 700px !important;
+margin-left: 650px !important;
 }
 
 .photo-2 {
 	margin-top: -400px !important;
-	margin-left: -150px !important;
+	margin-left: -50px !important;
 }
 
 .description-2 {
 margin-top: -200px !important;
-margin-left: 700px !important;
+margin-left: 650px !important;
 width: 300px;
 }
 
@@ -107,8 +112,8 @@ width: 300px;
 
 ul.order-list {
 
-font-size: 80%;
-line-height: 160%;
+font-size: 100%;
+line-height: 180%;
 list-style-type: none;
 margin-left: -20px;
 }
