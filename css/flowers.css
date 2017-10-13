@@ -32,17 +32,19 @@ line-height: 130%;
 
 .cover {
 background-color: black;
-margin-top: -220px;
+margin-top: -250px;
 padding: 25px 35px 40px 20px;
 
 }
 
 .title {
 margin-top: 300px;
+margin-left: 50px !important;
 }
 
 .text {
 width: 300px;
+margin-left: 50px !important;
 }
 
 .photo {
@@ -53,6 +55,7 @@ width: 300px;
 .description {
 margin-top: -200px !important;
 width: 300px;
+margin-left: 50px !important;
 
 }
 
